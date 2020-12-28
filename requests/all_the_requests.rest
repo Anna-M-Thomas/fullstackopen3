@@ -1,0 +1,22 @@
+DELETE http://localhost:3001/api/persons/1
+
+###
+GET http://localhost:3001/api/persons/
+
+### 
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "John Travolta",
+    "number": "505-505-5055"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "John Travolta",
+    "number": "505-505-5055"
+}

@@ -113,7 +113,7 @@ app.use(unknownEndpoint);
 
 //error handler is last
 const errorHandler = (error, request, response, next) => {
-  console.error(error.message);
+  console.error(error);
   console.error(error.name);
   if (error.name === "CastError") {
     return response.status(400).send({ error: "malformatted id" });
@@ -127,5 +127,5 @@ app.use(errorHandler);
 //finally, port is hanging out at last-last
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-  console.log("----");
+  console.log("Hey this is index.js and I am up and at them");
 });

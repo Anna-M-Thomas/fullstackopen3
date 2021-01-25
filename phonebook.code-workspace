@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../fullstackopen/part2/phonebook"
+	}
+],
+  "settings": {}
+}

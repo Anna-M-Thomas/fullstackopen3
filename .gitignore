@@ -1,2 +1,5 @@
 #Ignore all those node_modules!
 node_modules
+
+#Ignore that .env fileeee!!!
+.env
